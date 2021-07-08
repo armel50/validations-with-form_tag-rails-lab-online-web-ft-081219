@@ -12,7 +12,7 @@ gem 'bootsnap'
 
 group :development, :test do
   gem 'pry'
-  gem 'capybara'
+  gem 'capybara', '>= 3.14.0'
 end
 
 group :development do
